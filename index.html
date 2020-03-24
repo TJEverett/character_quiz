@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/jquery-3.4.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Character Quiz</title>
+  </head>
+  
+  <body>
+    <div class="jumbotron">
+      <h1>Which Wheel of Time Character Are You?</h1>
+    </div>
+    <div class="container">
+      <div class="questions">
+        <form id="timeCharacter">
+          <p>What animal do you like best?</p>
+          <select class="form-control" id="animal">
+            <option disabled selected value="n">-- select an option --</option>
+            <option value="p">wolf</option>
+            <option value="m">raven</option>
+            <option value="r">neither</option>
+          </select>
+          <p>What weapon do you like better?</p>
+          <select class="form-control" id="weapon">
+            <option disabled selected value="n">-- select an option --</option>
+            <option value="r">sword</option>
+            <option value="p">axe</option>
+            <option value="m">spear</option>
+          </select>
+          <p>How do you view fate?</p>
+          <select class="form-control" id="fate">
+            <option disabled selected value="n">-- select an option --</option>
+            <option value="p">something to submit to</option>
+            <option value="r">something to fight</option>
+            <option value="m">disbelieve</option>
+          </select>
+          <p>How tall are you?</p>
+          <select class="form-control" id="height">
+            <option disabled selected value="n">-- select an option --</option>
+            <option value="m">short</option>
+            <option value="p">average</option>
+            <option value="r">tall</option>
+          </select>
+          <p>What is your eye color?</p>
+          <select class="form-control" id="eyes">
+            <option disabled selected value="n">-- select an option --</option>
+            <option value="r">blue</option>
+            <option value="m">brown</option>
+            <option value="p">neither</option>
+          </select>
+          <button type="submit" class="btn">Who am I?</button>
+        </form>
+      </div>
+
+      <div class="perrin">
+        <h3>You are Perrin Aybara</h3>
+      </div>
+      <div class="mat">
+        <h3>You are Mat Cauthon</h3>
+      </div>
+      <div class="rand">
+        <h3>You are Rand al'Thor</h3>
+      </div>
+    </div>
+  </body>
+</html>
